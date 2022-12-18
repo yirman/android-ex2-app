@@ -1,5 +1,6 @@
 package com.ex2.blog.presentation.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -80,7 +81,7 @@ class MainActivity : BaseEntriesActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
             R.id.search -> {
-
+                startActivity(Intent(this, SearchEntriesActivity::class.java))
             }
         }
         return super.onOptionsItemSelected(item)
