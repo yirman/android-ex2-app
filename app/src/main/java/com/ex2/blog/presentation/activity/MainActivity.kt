@@ -69,7 +69,10 @@ class MainActivity : BaseEntriesActivity() {
     }
 
     override fun onClickEntry(id: String) {
-
+        val intent = Intent(this, EntryDetailActivity::class.java).apply {
+            putExtra("entry_id", id)
+        }
+        startActivity(intent)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
