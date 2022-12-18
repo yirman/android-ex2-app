@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">BlogEx2</string>
+    <string name="no_entries_available">No entries available</string>
+    <string name="author">Author</string>
+    <string name="title">Title</string>
+    <string name="msg_write_us_something">Write us something</string>
+    <string name="compose">Compose</string>
+    <string name="send">Send</string>
+    <string name="msg_fill_fields">Please fill all fields</string>
+    <string name="msg_entry_sent_correctly">Entry sent correctly</string>
+    <string name="search_entries">Search entries</string>
+    <string name="by_author">By: %1$s</string>
+    <string name="release_on">Released on: %1$s</string>
+    <string name="msg_no_internet_connection">No internet connection</string>
+    <string name="msg_internet_connection_error">Internet connection error</string>
+    <string name="msg_be_first_in_write">Be the first one in writing something!</string>
 </resources>
