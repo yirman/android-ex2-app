@@ -21,6 +21,8 @@ Algorithm for providing data by either retrieving sufficiently recent data from 
 
 - Hilt 💉  https://developer.android.com/training/dependency-injection/hilt-android?hl=es-419
 
+- ExoPlayer 🎥 https://developer.android.com/guide/topics/media/exoplayer?hl=es-419
+
 - Lottie 🎁 https://lottiefiles.com/blog/working-with-lottie/getting-started-with-lottie-animations-in-android-app
 
 - Kotlin 🥇 (https://developer.android.com/kotlin)
