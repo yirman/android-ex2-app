@@ -7,4 +7,8 @@
         android:title="@string/search_entries"
         android:icon="@drawable/baseline_search_24"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/writing"
+        android:title="@string/msg_importance_of_writing"
+        app:showAsAction="never" />
 </menu>

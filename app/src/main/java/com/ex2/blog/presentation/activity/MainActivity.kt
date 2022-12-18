@@ -86,6 +86,9 @@ class MainActivity : BaseEntriesActivity() {
             R.id.search -> {
                 startActivity(Intent(this, SearchEntriesActivity::class.java))
             }
+            R.id.writing -> {
+                startActivity(Intent(this, MoviePlayerActivity::class.java))
+            }
         }
         return super.onOptionsItemSelected(item)
     }

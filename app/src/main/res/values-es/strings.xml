@@ -14,4 +14,5 @@
     <string name="msg_no_internet_connection">Sin conexión a internet</string>
     <string name="msg_internet_connection_error">Error de conexión a internet</string>
     <string name="msg_be_first_in_write">Se el primero en escribirnos algo!</string>
+    <string name="msg_importance_of_writing">La importancia de la escritura</string>
 </resources>
