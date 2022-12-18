@@ -31,7 +31,7 @@ class MainActivity : BaseEntriesActivity() {
         }
 
         binding.fabAddEntry.setOnClickListener {
-
+            startActivity(Intent(this, NewEntryActivity::class.java))
         }
 
         viewModel.entries.observe(this){
