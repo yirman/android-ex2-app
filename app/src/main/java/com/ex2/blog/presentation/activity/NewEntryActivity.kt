@@ -71,7 +71,7 @@ class NewEntryActivity : BaseEntryActivity(){
         val title = binding.title.text.toString()
         val content = binding.content.text.toString()
 
-        if(StringUtils.isAllEmpty(author, title, content)){
+        if(StringUtils.isAnyEmpty(author, title, content)){
             Toast.makeText(this, getString(R.string.msg_fill_fields), Toast.LENGTH_LONG).show()
         }
         else{
